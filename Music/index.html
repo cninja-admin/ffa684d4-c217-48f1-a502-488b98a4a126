@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navigation-bar">
+            <div class="first-combo">
+                <div class="logo-name">
+                    <div class="logo">
+                        <i class="fas fa-headphones"></i>    
+                    </div>
+                    <div>
+                        <h2>Ninja</h2>
+                        <h6>Studio</h6>
+                    </div>
+                </div>
+                <div class="favs">
+                    <h4>
+                        Favourites
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="second-combo">
+                <div class="search">
+                    <div>
+                        <i class="fas fa-search search-ico"></i>
+                    </div>
+                    <input type="text" name="search" placeholder="Search">
+                    <div>
+                        <i class="fas fa-microphone mic-ico"></i>
+                    </div>
+                </div>
+                <div class="notification">
+                    <i class="far fa-bell"></i>
+                </div>
+                <div class="profile-picture">
+                    <img src="Images/profile.jpg">
+                </div>
+
+            </div>
+            
+        </nav>
+        
+        <main id="main1">
+            <aside class="section-1">
+                <div class="corousel">
+                    <img src="Images/rock.jpg">
+                    <img src="Images/classical.jpg">
+                    <img src="Images/melody.jpg">
+                </div>
+                <div id="latest-release">
+                    <h1>Latest Release</h1>
+                    <div id="latest-release-items">
+                        <!-- Item-1 -->
+                        <div id="latest-release-item">
+                            <div id="latest-release-img" >
+                                <div id="latest-release-img-button" class="hide" href=>
+                                    <a href="#music-bar" style="color: white;"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div id="latest-item-title" class="hide">
+                                <b>Paiya</b>
+                                <p>July,2010</p>
+                                <p>4.44</p>
+                            </div>
+                            <div id="dropdown">
+                                <i class="fas fa-chevron-circle-down">
+                                    <div id="dropdown-menu" class="hide">
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-play"></i>
+                                            &nbsp;
+                                            <a href="">Play Now</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Queue</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Favourites</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Get Info</a>
+                                        </div>
+                                    </div>
+                                </i>
+                                
+        
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div id="latest-release-item">
+                            <div id="latest-release-img">
+                                <div id="latest-release-img-button" class="hide">
+                                    <a href="#music-bar" style="color: white;"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div id="latest-item-title" class="hide">
+                                 <b>Paiya</b>
+                                <p>July,2010</p>
+                                <p>4.44</p>
+                            </div>
+                            <div id="dropdown">
+                                <i class="fas fa-chevron-circle-down">
+                                    <div id="dropdown-menu" class="hide">
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-play"></i>
+                                            &nbsp;
+                                            <a href="">Play Now</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Queue</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Favourites</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Get Info</a>
+                                        </div>
+                                    </div>
+                                </i>
+                                
+        
+                            </div>
+                        </div>
+                        <!-- Item-3 -->
+                        <div id="latest-release-item">
+                            <div id="latest-release-img">
+                                <div id="latest-release-img-button" class="hide">
+                                    <a href="#music-bar" style="color: white;"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div id="latest-item-title" class="hide">
+                                <b>Paiya</b>
+                                <p>July,2010</p>
+                                <p>4.44</p>
+                            </div>
+                            <div id="dropdown">
+                                <i class="fas fa-chevron-circle-down">
+                                    <div id="dropdown-menu" class="hide">
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-play"></i>
+                                            &nbsp;
+                                            <a href="">Play Now</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Queue</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Favourites</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Get Info</a>
+                                        </div>
+                                    </div>
+                                </i>
+                                
+        
+                            </div>
+                        </div>
+                        <!-- Item-4 -->
+                        <div id="latest-release-item">
+                            <div id="latest-release-img">
+                                <div id="latest-release-img-button" class="hide">
+                                    <a href="#music-bar" style="color: white;"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div id="latest-item-title" class="hide">
+                                <b>Paiya</b>
+                                <p>July,2010</p>
+                                <p>4.44</p>
+                            </div>
+                            <div id="dropdown">
+                                <i class="fas fa-chevron-circle-down">
+                                    <div id="dropdown-menu" class="hide">
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-play"></i>
+                                            &nbsp;
+                                            <a href="">Play Now</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Queue</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-plus"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Add to Favourites</a>
+                                        </div>
+                                        <hr/>
+                                        <div id="dropdown-list">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            &nbsp;
+                                            <a href="#latest-release">Get Info</a>
+                                        </div>
+                                    </div>
+                                </i>
+                                
+        
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Latest release Section Ends -->
+
+                <!-- Popular artist Section -->
+
+                <div id="popular-artists">
+                    <h1>Popular Artists</h1>
+                    <div id="popular-artists-list">
+                        <!-- Artist-1 -->
+                        <div id="popular-artist">
+                            <img src="Images/yuvan.jpg">
+                            <div class="center">
+                                <a href="SinglePlaylistScreen.html">
+                                    Yuvan
+                                 </a>
+                            </div>                                                    
+                        </div>
+                        <!-- Artist-2 -->
+                        <div id="popular-artist">
+                            <img src="Images/santhossh.jpg">
+                            <div class="center">
+                                <a href="SinglePlaylistScreen.html">
+                                  Santhosh
+                               </a>
+                            </div>
+                        </div>
+                        <!-- Artist-3 -->
+                        <div id="popular-artist">
+                            <img src="Images/anirudh.jpg">
+                            <div class="center" >
+                                <a href="SinglePlaylistScreen.html">
+                                  Anirudh
+                               </a>
+                            </div>
+                        </div>
+                        <!-- Artist-4 -->
+                        <div id="popular-artist">
+                            <div class="center" >
+                                <img src="Images/gvp.jpg">
+                                <a href="SinglePlaylistScreen.html">
+                                  GV Prakash
+                               </a>
+                            </div>
+                        </div>
+                        <!-- Artist-5 -->
+                        <div id="popular-artist">
+                            <div class="center">
+                                <img src="Images/spb.jpg">
+                                <a href="SinglePlaylistScreen.html">
+                                  SPB
+                               </a>
+                            </div>
+                        </div>
+                        <!-- Artist-6 -->
+                        <div id="popular-artist">
+                            <div class="center">
+                                <img src="Images/ilayaraja.jpg">
+                                <a href="SinglePlaylistScreen.html">
+                                  Ilayaraja
+                               </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Popular Artist Section -->
+                <!-- Genre Section -->
+                <div id="genre">
+                    <div id="genre-item">
+                        <div style="color:gray" id="genre-item-background-1">Party</div>
+                    </div>
+                    <div id="genre-item">
+                        <div style="color:gray" id="genre-item-background-2">Daily Mix </div>
+                    </div>
+                    <div id="genre-item">
+                        <div style="color:gray" id="genre-item-background-3">Road Trip</div>
+                    </div>
+                </div>
+                <!-- End of Genre Section -->
+                <!-- Playlist Section -->
+                <div id="playlist">
+                    <!--Playlist item 1-->
+                    <div id="playlist-item">
+                        <div id="playlist-item-1" class="playlist_anim">
+                             Love
+                        </div>
+                    </div>
+                    <!--Playlist item 2-->
+                    <div id="playlist-item">
+                        <div id="playlist-item-2" class="playlist_anim">
+                             Retro
+                        </div>
+                    </div>
+                    <!--Playlist item 3-->
+                    <div id="playlist-item">
+                        <div id="playlist-item-3" class="playlist_anim">
+                             Chill
+                        </div>
+                    </div>
+                    <!--Playlist item 4-->
+                    <div id="playlist-item">
+                        <div id="playlist-item-4" class="playlist_anim">
+                             Pop
+                        </div>
+                    </div>
+                    <!--Playlist item 5-->
+                    <div id="playlist-item">
+                        <div id="playlist-item-5" class="playlist_anim">
+                             Workout
+                        </div>
+                    </div>
+                    <!--Playlist item 6-->
+                  <!--  <div id="playlist-item">
+                        <div id="playlist-item-6" class="playlist_anim">
+                             Rock
+                        </div>
+                    </div> -->
+                </div>
+                <!-- End of Playlist Section -->
+                <!-- Latest Tamil Songs Section -->
+                <div id="latest-songs">
+                    <h1>Latest Tamil</h1>
+                    <!--Songs List Div-->
+                    <div id="latest-songs-list">
+                        <!--Song 1-->
+                        <div id="latest-songs-item">
+                            <div id="latest-songs-item-img-1" class="latest_image">
+                             <!--Play button which is hidden and appears on hover-->
+                             <div id="latest-songs-item-button" class="hide">
+                                 <i class="fas fa-play"></i>
+                             </div>
+                            </div>
+                            <!--End of song image-->
+                            <div id="latest-songs-item-title">
+                                <b>Dheeran</b><br/><date style="color:lightgrey">January, 2016</date>
+                            </div>
+                            <!--End of song title-->
+                        </div>
+                        <!--End of song 1-->
+                        <!--Song 2-->
+                        <div id="latest-songs-item">
+                             <div id="latest-songs-item-img-2" class="latest_image">
+                                 <!--Play button which is hidden and appears on hover-->
+                                   <div id="latest-songs-item-button" class="hide">
+                                     <i class="fas fa-play"></i>
+                                 </div>
+                             </div>
+                             <!--End of song image-->
+                             <div id="latest-songs-item-title">
+                                 <b>Goa</b><br/><date style="color:lightgrey">November, 2012</date>
+                            </div>
+                            <!--End of song title-->
+                        </div>
+                        <!--End of song 2-->
+                        <!--Song 3-->
+                        <div id="latest-songs-item">
+                             <div id="latest-songs-item-img-3" class="latest_image">  
+                             <!--Play button which is hidden and appears on hover-->         	
+                                 <div id="latest-songs-item-button" class="hide">
+                                     <i class="fas fa-play"></i>
+                                 </div>
+                                 <!--End of play button-->
+                            </div>
+                            <!--End of song image-->
+                            <!--Song title-->
+                            <div id="latest-songs-item-title">
+                                 <b>Raavanan</b><br/><date style="color:lightgrey">December, 2015</date>
+                            </div>
+                            <!--End of song title-->
+                        </div>
+                        <!--End of song 3-->
+                        <!--Song 4-->
+                        <div id="latest-songs-item">
+                             <div id="latest-songs-item-img-4" class="latest_image">
+                                 <!--Play button which is hidden and appears on hover-->
+                                 <div id="latest-songs-item-button" class="hide">
+                                     <i class="fas fa-play"></i>
+                                 </div>
+                                 <!--End of play button-->
+                            </div>
+                            <!--End of song image-->
+                            <!--Song title-->
+                            <div id="latest-songs-item-title">
+                                <b>Vaamanan</b><br/><date style="color:lightgrey">January, 2013</date>
+                            </div>
+                            <!--End of song title-->
+                        </div>
+                        <!--End of song 4-->
+                        <!--Song 5-->
+                        <div id="latest-songs-item">
+                            <div id="latest-songs-item-img-5" class="latest_image">
+                                <!--Play button which is hidden and appears on hover-->
+                                 <div id="latest-songs-item-button" class="hide">
+                                     <i class="fas fa-play"></i>
+                                 </div>
+                                 <!--End of play button-->
+                            </div>
+                            <!--End of song image-->
+                            <!--Song title-->
+                            <div id="latest-songs-item-title" >
+                                <b>Paiya</b><br/><date style="color:lightgrey">January, 2010</date>
+                            </div>
+                            <!--End of song title-->
+                        </div>
+                        <!--End of song 5-->
+                   </div>
+                   <!--End of Latest Tamil Songs Section-->
+                </div>
+            </aside>
+            <!-- Queue Section -->
+            <div id="queue-section">
+                <div id="queue-header">
+                    <div id="queue-title">
+                        Queue
+                    </div>
+                    <!--Dropdown menu-->
+                    <div id="queue-dropdown">
+                        <form>
+                            <select>
+                                <option id="Queue" label="Queue">Queue</option>
+                                <option id="Playlist" label="Playlist"><a href="">Playlist</a></option>
+                            </select>
+                        </form>
+                    </div>
+                    <!--End of Dropdown menu-->
+                </div>
+                <!--End of aside section header-->
+                <!--Song 1-->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image1"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>Chinna Chinna</b>
+                        <p style="color:lightgrey;">Yuvan</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 2 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image2"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>kadhal endral</b>
+                        <p style="color:lightgrey;">Yuvan</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 3 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image3"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>Kodu pota</b>
+                        <p style="color:lightgrey;">Santhosh</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 4 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image4"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>Oru devadhai</b>
+                        <p style="color:lightgrey;">Santhosh</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 5 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image5"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>En kadhal solla</b>
+                        <p style="color:lightgrey;">Anirudh</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 6 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image1"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>Pogathe</b>
+                        <p style="color:lightgrey;">Yuvan</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- Song 7 -->
+                <div id="queue-item">
+                    <div id="queue-item-img" class="image3"></div>
+                    <!--Song title-->
+                    <div id="queue-item-title">
+                        <b>Kaala</b>
+                        <p style="color:lightgrey;">Santhosh</p>
+                    </div>
+                    <!--End of song title-->
+                    <!--Favourite icon-->
+                    <div id="queue-favourite">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!--The bottom music bar which pops up when we play a music-->
+            <div id="music-bar" class="hide">
+                 <!--Music Icon-->
+                <div id="music-icon">
+                      <img src="Images/kabali.jpg" alt="music-icon">
+                </div>
+                 <!--End of music icon-->
+                 <!--Music title-->
+                <div id="music-title">
+                     <b>Kabali</b>
+                     <div id="favourite">
+                        <i class="far fa-heart"></i>
+                     </div>
+                     <div id="remove">
+                         <i class="fas fa-ban"></i>
+                     </div>
+                     <br/>
+                     <artist id="music-player-title-artist">Santhosh</artist>
+                </div>
+                 <!--End of music title-->
+                 <!--Play buttons-->
+                <div id="play-buttons">
+                     <i class="fas fa-random"></i>
+                     <i class="fas fa-backward"></i>
+                     <i class="fas fa-pause-circle"></i>
+                     <i class="fas fa-forward"></i>
+                     <i class="fas fa-undo-alt"></i>
+                </div>
+                 <!--End of play buttons-->
+                 <!--Music start time-->
+                <div id="start-time">
+                     0:00
+                </div>
+                 <!--End of music start time-->
+                 <!--Music end time-->
+                <div id="end-time">
+                     4.44
+                </div>
+                 <!--End of music end time-->
+                 <!--Begining of the progress bar-->
+                <div id="progress-bar">
+                      <div id="circle">
+                          <i class="fas fa-circle"></i>
+                     </div>
+                </div>
+                 <!--End of progress bar-->
+                 <!--Miscellaneous icons-->
+                <div id="queue">
+                     <i class="fas fa-bars"></i>
+                </div>
+                <div id="volume">
+                     <i class="fas fa-volume-up"></i>
+                </div>
+                <div id="progress-bar-volume">
+                     <div id="circle-volume">
+                       <i class="fas fa-circle"></i>
+                     </div>
+                </div>
+                 <!--End of miscellaneous icons-->
+            </div>
+             <!--End of music bar-->
+        </footer>
+    </body>
+</html>
